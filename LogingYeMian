@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>娜娜的登入页面</title>
+</head>
+<body>
+
+<form action="JspLogin.jsp" method = "get">
+   用户名：<input type="text" name="name">
+   <br/>
+  密码：<input type="text" name="password">
+  <br/>
+  <input type="submit" value="提交"  style="text-align:center;"/>
+</form>
+</body>
+</html>
