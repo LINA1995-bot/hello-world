@@ -5,7 +5,7 @@
 <title>娜娜的登入页面</title>
 </head>
 <body>
-
+--<html的页面登入代码>
 <form action="JspLogin.jsp" method = "get">
    用户名：<input type="text" name="name">
    <br/>
