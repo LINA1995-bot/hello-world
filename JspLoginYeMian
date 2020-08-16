@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import="java.io.*,java.util.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用户登入后的页面</title>
+</head>
+<body>
+<%  String name= new String((request.getParameter("name")));%>
+<% String password= new String((request.getParameter("password"))); %>
+<%if(name.equals("lina")&& password.equals("123")){
+	out.println("恭喜您，登入成功！");}
+else{
+	out.println("对不起，您登入失败了。");
+}
+	%>
+</body>
+</html>
